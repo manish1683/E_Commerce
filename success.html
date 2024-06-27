@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Successful</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <div class="success-container">
+        <h1 class="success-heading">Payment Successful!</h1>
+        <p class="success-message">Your order will be arriving soon. Thank you for your payment.</p>
+        <button class="back-button" id="backButton">Back to Home</button>
+        
+        <!-- Additional content here -->
+        <div class="order-details">
+            <h2>Order Details:</h2>
+            <ul>
+                <li><strong>Order ID:</strong> ABC123456</li>
+                <li><strong>Order Date:</strong> October 10, 2023</li>
+                <li><strong>Shipping Address:</strong> 123 Main St, City, Country</li>
+                <li><strong>Estimated Delivery:</strong> October 20, 2023</li>
+            </ul>
+        </div>
+        
+        <div class="recommendations">
+            <h2>Recommended Products</h2>
+            <!-- Include recommended product images and links here -->
+            <div class="product">
+                <img src="./img/photo-1542291026-7eec264c27ff.jpeg" alt="Recommended Product 1">
+                <p><a href="product1.html">Product 1</a></p>
+            </div>
+            <div class="product">
+                <img src="./img/photo-1606107557195-0e29a4b5b4aa.jpeg" alt="Recommended Product 2">
+                <p><a href="product2.html">Product 2</a></p>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // JavaScript code here
+        document.getElementById("backButton").addEventListener("click", function () {
+            window.location.href = "index.html"; // Replace with the URL of your home page
+        });
+    </script>
+</body>
+</html>

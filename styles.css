@@ -1,0 +1,100 @@
+/* Add this to your style.css */
+
+/* Center the success container */
+.success-container {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the heading and message */
+.success-heading {
+    font-size: 24px;
+    color: #333;
+}
+
+.success-message {
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Style the back button */
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+/* Style the order details section */
+.order-details {
+    margin-top: 30px;
+}
+
+.order-details h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.order-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.order-details li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Style the recommended products section */
+.recommendations {
+    margin-top: 30px;
+}
+
+.recommendations h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product {
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 150px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.product p {
+    font-size: 16px;
+    color: #333;
+    margin-top: 5px;
+}
+
+/* Add more styles as needed */
+
+/* Reset default margin and padding for some elements */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
